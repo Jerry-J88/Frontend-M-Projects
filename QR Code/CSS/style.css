@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Sarina&display=swap');
+
+
+body {
+    background-color:hsl(212, 45%, 89%);
+    width: auto;
+    height: auto;
+}
+
+.qr-container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    width: 350px;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+}
+
+.qr-code {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.bold {
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    
+}
