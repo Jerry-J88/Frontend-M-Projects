@@ -5,37 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        
         <title>Frontend Mentor | Newsletter sign-up form with success message
         </title>
     </head>
 
     <body>
-        <div class="text body">
-            <p>Stay updated!<br> Join 60,000+ product managers receiving monthly updates on: 
-                <ul>
-                    <li>Product discovery and building what matters</li>
-                    <li>Measuring to ensure updates are a success</li> 
-                    <li>And much more!</li>
-                </ul>
-            </p>
-            <form>
-                <div class="form-container">
-                    <label for="email"><b>Email Address</b></label>
-                    <input type="email" placeholder="email@company.com" name="email" required> 
-                    <div class="button">
-                        <button type="submit" class="signupbtn">Subscribe to monthly newsletter</button>
+        <div class="container">
+            <div class="text-body">
+                <p class="top-text">Stay updated!</p>
+                <p class="bottom-text"> Join 60,000+ product managers receiving monthly<br> updates on: 
+                    <ul>
+                        <li>Product discovery and building what matters</li><br>
+
+                        <li>Measuring to ensure updates are a success</li> <br>
+
+                        <li>And much more!</li>
+                    </ul>
+                </p>
+                
+                    <div class="form-container">
+                        <form>
+                            <label for="email" class="label"><b>Email address</b></label><br>
+                            <input type="email" class="email" placeholder="email@company.com" name="email" required> 
+                            <div class="button">
+                                <button type="submit" class="signupbtn">Subscribe to monthly newsletter</button>
+                            </div>
+                        </form>
                     </div>
+                
+                <div class="img-container">
+                    <img src="./images/illustration-sign-up-desktop.svg">
                 </div>
-            </form>
-            <div class="img-container">
-                <img src="./images/illustration-sign-up-desktop.svg">
-            </div>
-        </div>     
-            <div class="attribution">
-                <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                Coded by <a href="https://www.jerryjensenportfolio.com">Jerry Jensen</a>.</p>
-            </div>
-           
+            </div>    
+                <div class="attribution">
+                    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                    Coded by <a href="https://www.jerryjensenportfolio.com">Jerry Jensen</a>.</p>
+                </div>
+        </div>
     </body>
 
 </html>

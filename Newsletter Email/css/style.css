@@ -1,8 +1,52 @@
-p {
-    color: red;
-    font-size: large;
-}
+
 ul {
-    list-style-image: src('icon-list.svg') ;
+    list-style-image: url('../images/icon-list.svg');
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(234, 29%, 20%);
+}
+
+.top-text {
+    color: hsl(234, 29%, 20%);
+    font-family: 'roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 2vw;
     
 }
+
+.bottom-text {
+    color: hsl(234, 29%, 20%);
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+}
+
+.text-body {
+   columns: 2;
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 2vw 2vw 0vw 0vw;
+   margin-top: 10%;
+   max-width: 67vw;
+   margin-left: 15%;
+   padding-top: 2vw;
+   padding-left: 3vw;
+}
+
+.form-container {
+    margin-top: 2vw;
+    font-family: 'roboto', sans-serif;
+ }
+
+.attribution {
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0vw 0vw 2vw 2vw;
+    display: inline-block;
+    width: 70vw;
+    margin-left: 15%;
+ }
