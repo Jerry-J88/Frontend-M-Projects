@@ -4,6 +4,7 @@ ul {
     font-family: 'roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
+  
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 2vw;
+   
     
 }
 
@@ -24,6 +26,7 @@ body {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
     font-weight: 500;
+    
 }
 
 .text-body {
@@ -31,10 +34,11 @@ body {
    background-color: hsl(0, 0%, 100%);
    border-radius: 2vw 2vw 0vw 0vw;
    margin-top: 10%;
-   max-width: 67vw;
+   max-width: 1010px;
    margin-left: 15%;
    padding-top: 2vw;
-   padding-left: 3vw;
+   padding-left: 50px;
+   
 }
 
 .form-container {
@@ -42,11 +46,34 @@ body {
     font-family: 'roboto', sans-serif;
  }
 
+ .email {
+    width: 443px;
+    height: 50px;
+    margin: 1vw 0 1vw 0;
+    border-radius: 8px;
+    text-indent: 25px;
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+    border: 1px solid black;
+}
+
+.signupbtn {
+    width: 450px;
+    height: 50px;
+    border-radius: 8px;
+    background-color:hsl(234, 29%, 20%) ;
+    border: 2px solid hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .attribution {
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     border-radius: 0vw 0vw 2vw 2vw;
     display: inline-block;
-    width: 70vw;
+    width: 1060px;
     margin-left: 15%;
  }
